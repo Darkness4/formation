@@ -2,31 +2,33 @@
 
 Prenez nourritures, boissons et enceintes de musique (et des recommandations musicales ^^).
 
-Sachez que l’install party sera fait de manière assez rapide.
+Sachez que l’install party sera fait de manière rapide. Attendre que quelqu'un finisse de télécharger Android SDK pendant la formation ne sera pas toléré.
+*Si difficultés, envoyer un message direct (privée) sur Slack à Marc NGUYEN. *
 
-Avant de venir, vérifiez votre matériel (*si difficulté => messages direct sur Slack*) :
-- Windows, Linux ou Mac x64 (VM strictement interdite)
-- 8 GB de RAM minimum, 16 GB recommandées.
-- 3 GB de ROM minimum, 20 GB recommandées.
-- *Une souris*
-- Un téléphone Android ou un émulateur avec au minimum la version Android Lollipop 5.1 (ou API 22) (MEmu toléré)
-	- Options développeurs activées
-	- ADB debug activé
-	- Install par USB via ADB activé
-- IDE léger (Atom, Sublime, VSCode (:étoile:)) et/ou lourd (Android Studio *ou* :étoile2:Intellij IDEA:étoile2:) 
-- Git (si vous ne l’avez pas, vous n’avez pas suivi le tutoriel pour Flutter branche master)
-- Avoir au minimum *téléchargé* les SDK (si Linux, utilisez le script), c.-à-d.:
-	- Java open/oracle JDK 8 (versions ultérieures et antérieures bannies)
-	- Flutter branche *master*
-	- tools et platform-tools
-	- build-tools 28.0.3
-	- platforms 28 (android Pie)
+Avant de venir, vérifiez votre matériel :
+• Windows, Linux ou Mac x64 (VM strictement interdite)
+• 8 GB de RAM minimum, 16 GB recommandées.
+• 3 GB de ROM minimum, 20 GB recommandées.
+• *Une souris*
+• Un téléphone Android ou un émulateur avec au minimum la version Android Lollipop 5.1 (MEmu toléré)
+	○ Options développeurs activées (attention aux téléphones chinois !)
+	○ ADB debug activé
+	○ Install par USB via ADB activé
+• IDE léger (Atom, Sublime, VSCode (:star:)) et/ou lourd (Android Studio *ou* :star2:Intellij IDEA:star2:)
+• Avoir au minimum *téléchargé* les SDK (utilisez les scripts svp), c.-à-d.:
+	○ Java open/oracle JDK 8 (versions ultérieures et antérieures bannies)
+	○ Flutter branche *master*
+	○ Android SDK tools 4333796
+		- tools et platform-tools
+		- build-tools 28.0.3
+		- platforms 28 (Android Pie)
 
 Ceux qui ont un Mac seront accueillis(?).
 
-S’il y a des problèmes d’installation => message sur Slack ou venez à 20 h 15.
+*S’il y a des problèmes d’installation => message sur Slack ou venir à 20 h 00*.
+
 Pour tester, `flutter doctor -v`. Si erreur, envoyez ce que donne cette commande sur Slack.
-Vous obtenez quelque chose dans le genre :  
+Vous obtenez normalement (avec Intellij IDEA) :
 
 ```
 [√] Flutter (Channel master, v1.3.8-pre.18, on Microsoft Windows [version 10.0.17763.316], locale fr-FR)
@@ -62,14 +64,18 @@ Vous obtenez quelque chose dans le genre :
 
 Tutoriel d’installation :  https://flutter.dev/docs/get-started/install/
 *Préférez Flutter chaine master https://github.com/flutter/flutter *
+
 Lien Script Linux : https://raw.githubusercontent.com/Darkness4/formation/master/files/script.sh
 Lien Script Windows (lancer en admin avec powershell) : https://raw.githubusercontent.com/Darkness4/formation/master/files/script_windows_ADMIN.ps1
-Des snippets utiles :pouce: : https://raw.githubusercontent.com/Darkness4/formation/master/files/snippets.sh
+
+Des snippets utiles :thumbsup: : https://raw.githubusercontent.com/Darkness4/formation/master/files/snippets.sh
+
 Les variables d’environnement sous Windows : https://www.java.com/fr/download/help/path.xml
-La diapo : https://docs.google.com/presentation/d/10hEHMDD5-BPr6Fo80DvLVuMZxoKAu0ldQrL6C9C-3TM/edit?usp=sharing
 Émulateur Android : https://developer.android.com/studio/run/managing-avds ou *suivre les snippets ligne 46*
+
+La diapo : https://docs.google.com/presentation/d/10hEHMDD5-BPr6Fo80DvLVuMZxoKAu0ldQrL6C9C-3TM/edit?usp=sharing
 Git de la formation : https://github.com/Darkness4/formation
 
-Note : L’install party se fera quand même. Si vous n’avez pas réussi, ce n’est pas grave. Espérez juste qu’il y a une bonne connexion internet :prière:.
+Note : Si vous n’avez pas pu vous préparer, ce n’est pas grave :wink:. Espérez juste qu’il y a une bonne connexion internet :pray:.
 
-L’install party se commencera à 20 h 40 sans exception.
+L’install party commencera à 20 h 40 sans exception.
