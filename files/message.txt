@@ -4,7 +4,7 @@ Prenez nourritures, boissons et enceintes de musique (et des recommandations mus
 
 Sachez que l’install party sera fait de manière assez rapide.
 
-Avant de venir, vérifiez votre matériel (*si difficulté => messages sur Slack*) :
+Avant de venir, vérifiez votre matériel (*si difficulté => messages direct sur Slack*) :
 - Windows, Linux ou Mac x64 (VM strictement interdite)
 - 8 GB de RAM minimum, 16 GB recommandées.
 - 3 GB de ROM minimum, 20 GB recommandées.
@@ -62,12 +62,13 @@ Vous obtenez quelque chose dans le genre :
 
 Tutoriel d’installation :  https://flutter.dev/docs/get-started/install/
 *Préférez Flutter chaine master https://github.com/flutter/flutter *
-Lien Script Linux : 
-Lien Script Windows (powershell, admin) :  
-Des snippets utiles :pouce: :
+Lien Script Linux : https://raw.githubusercontent.com/Darkness4/formation/master/files/script.sh
+Lien Script Windows (lancer en admin avec powershell) : https://raw.githubusercontent.com/Darkness4/formation/master/files/script_windows_ADMIN.ps1
+Des snippets utiles :pouce: : https://raw.githubusercontent.com/Darkness4/formation/master/files/snippets.sh
 Les variables d’environnement sous Windows : https://www.java.com/fr/download/help/path.xml
 La diapo : https://docs.google.com/presentation/d/10hEHMDD5-BPr6Fo80DvLVuMZxoKAu0ldQrL6C9C-3TM/edit?usp=sharing
 Émulateur Android : https://developer.android.com/studio/run/managing-avds ou *suivre les snippets ligne 46*
+Git de la formation : https://github.com/Darkness4/formation
 
 Note : L’install party se fera quand même. Si vous n’avez pas réussi, ce n’est pas grave. Espérez juste qu’il y a une bonne connexion internet :prière:.
 
