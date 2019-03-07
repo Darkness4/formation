@@ -1,0 +1,17 @@
+name: login_protail
+description: A sample command-line application.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: Nguyen Marc <email@example.com>
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  http: ^0.12.0+1
+  dscript_exec: ^2.0.1
+#  path: ^1.4.1
+
+dev_dependencies:
+  pedantic: ^1.0.0
+  test: ^1.0.0

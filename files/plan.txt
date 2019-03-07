@@ -1,0 +1,33 @@
+Objectif final : Faire un login pour le portail sur Flutter.
+
+main
+print
+var
+final const
+dynamic
+--null
+
+String
+
+Map List
+--vide explicit implicit
+
+Function
+--choose arg, optional named
+Function arrow
+Function async
+
+try catch assert Exception error handling
+
+Class
+constructor
+method
+async
+
+Flutter
+Page Stateful
+Center > Container > Column > Card > Padding > Column > Text(Status) + Text($status)
+----------------------------> Card > Column > Row > Text(IP) + Dropdown
+--------------------------------------------> Row > Text(Time) + Dropdown
+--------------------------------------------> Form > Column > TextFormField(uid)
+------------------------------------------------------------> TextFormField(pswd)

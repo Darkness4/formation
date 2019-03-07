@@ -1,0 +1,74 @@
+*Formation Flutter le mardi 12 mars, 20 h 30 - 0 h 30., 1100.*
+
+Prenez nourritures, boissons et enceintes de musique (et des recommandations musicales ^^).
+
+Sachez que l’install party sera fait de manière assez rapide.
+
+Avant de venir, vérifiez votre matériel (*si difficulté => messages sur Slack*) :
+- Windows, Linux ou Mac x64 (VM strictement interdite)
+- 8 GB de RAM minimum, 16 GB recommandées.
+- 3 GB de ROM minimum, 20 GB recommandées.
+- *Une souris*
+- Un téléphone Android ou un émulateur avec au minimum la version Android Lollipop 5.1 (ou API 22) (MEmu toléré)
+	- Options développeurs activées
+	- ADB debug activé
+	- Install par USB via ADB activé
+- IDE léger (Atom, Sublime, VSCode (:étoile:)) et/ou lourd (Android Studio *ou* :étoile2:Intellij IDEA:étoile2:) 
+- Git (si vous ne l’avez pas, vous n’avez pas suivi le tutoriel pour Flutter branche master)
+- Avoir au minimum *téléchargé* les SDK (si Linux, utilisez le script), c.-à-d.:
+	- Java open/oracle JDK 8 (versions ultérieures et antérieures bannies)
+	- Flutter branche *master*
+	- tools et platform-tools
+	- build-tools 28.0.3
+	- platforms 28 (android Pie)
+
+Ceux qui ont un Mac seront accueillis(?).
+
+S’il y a des problèmes d’installation => message sur Slack ou venez à 20 h 15.
+Pour tester, `flutter doctor -v`. Si erreur, envoyez ce que donne cette commande sur Slack.
+Vous obtenez quelque chose dans le genre :  
+
+```
+[√] Flutter (Channel master, v1.3.8-pre.18, on Microsoft Windows [version 10.0.17763.316], locale fr-FR)
+    • Flutter version 1.3.8-pre.18 at D:\flutter
+    • Framework revision a2d349c4c1 (22 minutes ago), 2019-03-07 11:02:42 -0800
+    • Engine revision f4951df193
+    • Dart version 2.2.1 (build 2.2.1-dev.0.0 571ea80e11)
+
+[√] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at D:\android_sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • ANDROID_HOME = D:\android_sdk
+    • ANDROID_SDK_ROOT = D:\android_sdk
+    • Java binary at: C:\Program Files\Java\jdk1.8.0_201\bin\java
+    • Java version Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
+    • All Android licenses accepted.
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.io/setup/#android-setup for detailed instructions).
+
+[√] IntelliJ IDEA Ultimate Edition (version 2018.3)
+    • IntelliJ at D:\Program Files\JetBrains\Toolbox\apps\IDEA-U\ch-1\183.5912.21
+    • Flutter plugin version 33.3.2
+    • Dart plugin version 183.5912.10
+
+[!] Connected device
+    ! No devices available
+
+! Doctor found issues in 2 categories.
+```
+
+Tutoriel d’installation :  https://flutter.dev/docs/get-started/install/
+*Préférez Flutter chaine master https://github.com/flutter/flutter *
+Lien Script Linux : 
+Lien Script Windows (powershell, admin) :  
+Des snippets utiles :pouce: :
+Les variables d’environnement sous Windows : https://www.java.com/fr/download/help/path.xml
+La diapo : https://docs.google.com/presentation/d/10hEHMDD5-BPr6Fo80DvLVuMZxoKAu0ldQrL6C9C-3TM/edit?usp=sharing
+Émulateur Android : https://developer.android.com/studio/run/managing-avds ou *suivre les snippets ligne 46*
+
+Note : L’install party se fera quand même. Si vous n’avez pas réussi, ce n’est pas grave. Espérez juste qu’il y a une bonne connexion internet :prière:.
+
+L’install party se commencera à 20 h 40 sans exception.
