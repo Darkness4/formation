@@ -19,7 +19,7 @@ choco install jdk8
 
 git clone -b "${FLUTTER_CHANNEL}" https://github.com/flutter/flutter.git $DISQUE\flutter
 
-Invoke-WebRequest "https://dl.google.com/android/repository/sdk-tools-linux-${ANDROID_SDK_TOOLS}.zip" -OutFile out.zip
+Invoke-WebRequest "https://dl.google.com/android/repository/sdk-tools-windows-${ANDROID_SDK_TOOLS}.zip" -OutFile out.zip
 mkdir $DISQUE\android-sdk
 Expand-Archive out.zip -DestinationPath $DISQUE\android-sdk
 Remove-Item out.zip
