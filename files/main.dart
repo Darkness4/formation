@@ -33,10 +33,15 @@ main(List<String> args) {
     print("1 Hello World");
   }
 
-  ;
+  // Arrow notation
   String helloWorld2() => "2 Hello World";
+
+  // Lambdas/Anonymous Functions
+  var helloWorld3 = () => "3 Hello World";
+
   helloWorld();
   print(helloWorld2());
+  print(helloWorld3());
 
   // Sync
   String funcSync() => "Hello World";
